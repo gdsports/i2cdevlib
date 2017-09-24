@@ -363,7 +363,7 @@ void loop(void)
     Serial.println();
     Serial.println("*** Disconnected from AP so rebooting ***");
     Serial.println();
-    ESP.reset();
+    ESP.restart();
   }
 
   mpu_loop();
